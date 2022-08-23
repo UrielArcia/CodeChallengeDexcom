@@ -1,0 +1,33 @@
+
+--Must be the same version as chrome
+https://chromedriver.chromium.org/downloads
+
+--variable de entorno path con la ruta del C:\Users\afore.jarcia\Documents\dexcom\chromedriver_win32\chromedriver_win32\chromedriver.exe para apuntar al chrome driver
+
+--DOCUMENTATION 
+https://selenium-python.readthedocs.io/index.html
+
+instalar desde el cmd pandas
+py -m pip install pandas
+
+instalar selenium
+py -m pip install selenium
+
+install para lectura de excel
+pip install openpyxl
+
+
+***********ROBOTFRAMEWORK
+-- installing robotframework
+pip install robotframework
+
+-- installing robotframework-selenium2library
+pip install robotframework-selenium2library
+
+--DOCUMENTATION ROBOTFRAMEWORK
+https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#library-documentation-top
+
+PROBLEMS THAT I FOUND
+find_element_by_css_selector was deprecated so was changed to driver.find_element(By.CSS_SELECTOR, selector_username)
+using robotframework i have to tab between words to recognize commands and actions
+better to use selector to find elements to perform actions

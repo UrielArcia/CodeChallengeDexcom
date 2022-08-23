@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20220823 13:21:05.777" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Framework" source="C:\Users\afore.jarcia\Documents\dexcom\Robot_framework\robot_framework.robot">
+<test id="s1-t1" name="Findying dexcom at google" line="4">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220823 13:21:05.975" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20220823 13:21:05.975" endtime="20220823 13:21:08.922"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>css:body &gt; div.L3eUgb &gt; div.o3j99.ikrT4e.om7nvf &gt; form &gt; div:nth-child(1) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input</arg>
+<arg>dexcom</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220823 13:21:08.923" level="INFO">Typing text 'dexcom' into text field 'css:body &gt; div.L3eUgb &gt; div.o3j99.ikrT4e.om7nvf &gt; form &gt; div:nth-child(1) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input'.</msg>
+<status status="PASS" starttime="20220823 13:21:08.923" endtime="20220823 13:21:09.002"/>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<arg>css:body &gt; div.L3eUgb &gt; div.o3j99.ikrT4e.om7nvf &gt; form &gt; div:nth-child(1) &gt; div.A8SBwf &gt; div.FPdoLc.lJ9FBc &gt; center &gt; input.gNO89b</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220823 13:21:09.002" level="INFO">Clicking button 'css:body &gt; div.L3eUgb &gt; div.o3j99.ikrT4e.om7nvf &gt; form &gt; div:nth-child(1) &gt; div.A8SBwf &gt; div.FPdoLc.lJ9FBc &gt; center &gt; input.gNO89b'.</msg>
+<status status="PASS" starttime="20220823 13:21:09.002" endtime="20220823 13:21:11.466"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>css:#rso &gt; div:nth-child(1) &gt; div &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div &gt; div.Z26q7c.UK95Uc.jGGQ5e.VGXe8 &gt; div &gt; a &gt; h3</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220823 13:21:11.467" level="INFO">Clicking element 'css:#rso &gt; div:nth-child(1) &gt; div &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div &gt; div.Z26q7c.UK95Uc.jGGQ5e.VGXe8 &gt; div &gt; a &gt; h3'.</msg>
+<status status="PASS" starttime="20220823 13:21:11.467" endtime="20220823 13:21:20.005"/>
+</kw>
+<status status="PASS" starttime="20220823 13:21:05.974" endtime="20220823 13:21:20.006"/>
+</test>
+<status status="PASS" starttime="20220823 13:21:05.779" endtime="20220823 13:21:20.008"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Framework">Robot Framework</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
