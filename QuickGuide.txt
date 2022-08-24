@@ -1,19 +1,19 @@
 
---Must be the same version as chrome
+--Must be the same version as chrome this exe will help to controll chrome 
 https://chromedriver.chromium.org/downloads
 
---variable de entorno path con la ruta del C:\Users\afore.jarcia\Documents\dexcom\chromedriver_win32\chromedriver_win32\chromedriver.exe para apuntar al chrome driver
+--Environment Variables path con la ruta del C:\Users\afore.jarcia\Documents\dexcom\chromedriver_win32\chromedriver_win32\chromedriver.exe to point chrome driver
 
 --DOCUMENTATION 
 https://selenium-python.readthedocs.io/index.html
 
-instalar desde el cmd pandas
+installling pands with terminal (data analysis) for getting the excel file with web page credentials
 py -m pip install pandas
 
-instalar selenium
+installing selenium with terminal
 py -m pip install selenium
 
-install para lectura de excel
+-excel file with web page credentials for python
 pip install openpyxl
 
 
@@ -31,3 +31,9 @@ PROBLEMS THAT I FOUND
 find_element_by_css_selector was deprecated so was changed to driver.find_element(By.CSS_SELECTOR, selector_username)
 using robotframework i have to tab between words to recognize commands and actions
 better to use selector to find elements to perform actions
+
+HOW TO EXECUTE Selenium/python
+CMD C:\Users\afore.jarcia\Documents\dexcom\Dexcom Test1>dexcom_test.py
+
+HOW TO EXECUTE ROBOTFRAMEWORK
+CMD C:\Users\afore.jarcia\Documents\dexcom\Robot_framework>robot robot_framework.robot

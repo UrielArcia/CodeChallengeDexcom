@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "bb93ddf7-94b3-4daa-997a-33f79aa22661",
+		"name": "TestChallenge 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://clarity.dexcom.com/api/subject/1594950620847472640/analysis_session",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "state",
+							"value": "CCkSH_8MQgSs5xRw",
+							"type": "string"
+						},
+						{
+							"key": "useBrowser",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://oauth.net/2/grant-types/authorization-code/",
+							"type": "string"
+						},
+						{
+							"key": "authUrl",
+							"value": "https://clarity.dexcom.com/api/subject/1594950620847472640/analysis_session",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "queryParams",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "string"
+						},
+						{
+							"key": "client_authentication",
+							"value": "body",
+							"type": "string"
+						},
+						{
+							"key": "scope",
+							"value": "photo offline_access",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "Calm-Squirrel-69",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "helpful-rhinoceros@example.com",
+							"type": "string"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://clarity.dexcom.com",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "DgDNSkkHarQKSEPgMTc7UqyEF8KeA5eUik_SQ6J8eqojzwOC",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "_dk8gRwfLmmbTNCsvm6o7NnY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://clarity.dexcom.com/api/subject/1594950620847472640/analysis_session",
+					"protocol": "https",
+					"host": [
+						"clarity",
+						"dexcom",
+						"com"
+					],
+					"path": [
+						"api",
+						"subject",
+						"1594950620847472640",
+						"analysis_session"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try 2",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "authUrl",
+							"value": "https://sandbox-api.dexcom.com",
+							"type": "string"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://oauth.pstmn.io/v1/callback",
+							"type": "string"
+						},
+						{
+							"key": "useBrowser",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://api.dexcom.com/v2/oauth2/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "ZkwFnr7ehiJmkvOl",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "7MvukohEGsG0Yudni7k1F76GkMNxANPV",
+							"type": "string"
+						},
+						{
+							"key": "state",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "scope",
+							"value": "offline_access",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "Demo Dexcom",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "queryParams",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "string"
+						},
+						{
+							"key": "client_authentication",
+							"value": "body",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "Calm-Squirrel-69",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "helpful-rhinoceros@example.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://clarity.dexcom.com/api/subject/1594950620847472640/analysis_session",
+					"protocol": "https",
+					"host": [
+						"clarity",
+						"dexcom",
+						"com"
+					],
+					"path": [
+						"api",
+						"subject",
+						"1594950620847472640",
+						"analysis_session"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "dexcom",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://clarity.dexcom.com/api/subject/1594950620847472640/analysis_session",
+					"protocol": "https",
+					"host": [
+						"clarity",
+						"dexcom",
+						"com"
+					],
+					"path": [
+						"api",
+						"subject",
+						"1594950620847472640",
+						"analysis_session"
+					]
+				},
+				"description": "DEXCOM"
+			},
+			"response": []
+		}
+	]
+}

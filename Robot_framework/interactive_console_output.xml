@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20220824 16:25:56.748" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\afore.jarcia\.vscode\extensions\robocorp.robotframework-lsp-1.0.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Browser">
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+<msg timestamp="20220824 16:25:57.594" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20220824 16:25:57.594" endtime="20220824 16:25:57.594"/>
+</kw>
+<kw name="Input Text">
+<arg>css:body &gt; div.L3eUgb &gt; div.o3j99.ikrT4e.om7nvf &gt; form &gt; div:nth-child(1) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input</arg>
+<arg>dexcom financial results</arg>
+<status status="NOT RUN" starttime="20220824 16:25:57.596" endtime="20220824 16:25:57.597"/>
+</kw>
+<kw name="Click Button">
+<arg>css:body &gt; div.L3eUgb &gt; div.o3j99.ikrT4e.om7nvf &gt; form &gt; div:nth-child(1) &gt; div.A8SBwf &gt; div.FPdoLc.lJ9FBc &gt; center &gt; input.gNO89b</arg>
+<status status="NOT RUN" starttime="20220824 16:25:57.599" endtime="20220824 16:25:57.599"/>
+</kw>
+<kw name="Click Element">
+<arg>css:#hdtb-msb &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; a</arg>
+<status status="NOT RUN" starttime="20220824 16:25:57.601" endtime="20220824 16:25:57.602"/>
+</kw>
+<status status="PASS" starttime="20220824 16:25:56.771" endtime="20220824 16:26:04.481"/>
+</kw>
+<status status="PASS" starttime="20220824 16:25:56.770" endtime="20220824 16:26:04.481"/>
+</test>
+<status status="PASS" starttime="20220824 16:25:56.751" endtime="20220824 16:26:04.483"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
